@@ -8,4 +8,8 @@ def profile(request):
     return render(request, 'profile.html')
 
 
+def share(request):
+    return render(request, 'share.html')
+
+
 # Create your views here.
